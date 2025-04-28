@@ -10,7 +10,9 @@
     "prettier": "^3.5.3"
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+     "build": "echo \"build success\"",
+     "test": "echo \"test success\""
   },
   "lint-staged": {
     "**/*.{js,jsx}": [
